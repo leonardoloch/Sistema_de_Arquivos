@@ -1,6 +1,6 @@
 # Sistema_de_Arquivos
 
-O trabalho é a construção de um sistema de arquivos para utilizar uma memória i2c EEPROM. O sitema de arquivo se comportava da seguinte maneira:
+O trabalho é a construção de um sistema de arquivos para utilizar uma memória i2c EEPROM com um núcleo AVR. O sitema de arquivo se comportava da seguinte maneira:
 - Um cabeçalho de 2 Bytes que indica qual é o número do primeiro bloco de dados livre. Após, existem 12 entradas de
 arquivos (inodos). Cada entrada de arquivo é composta por campos (Status - Indica se a entrada está livre ou ocupado, Nome
 - 8 letras para o nome do arquivo, tamanho - quantos bytes o arquivo ocupa, bloco direto (32 bytes de dados), bloco indireto (é
